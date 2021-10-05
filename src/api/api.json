@@ -1,0 +1,7 @@
+{
+  "mainIp":"http://localhost:8055/admin/fm/",
+  "addUser":"signUp",
+  "login":"login",
+  "scheduler":"addScheduler",
+  "getSchedule": "getScheduledData"
+}

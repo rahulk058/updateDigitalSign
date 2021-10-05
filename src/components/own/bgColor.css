@@ -1,0 +1,161 @@
+.bgColor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: url("../../../public/img/files/image2.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background: "#2C2D35";
+    background-image: linear-gradient(315deg, #000000 0%, #1e1f1f 74%);
+    z-index: 1;
+}
+
+.firInnerColor {
+    position: absolute;
+    width: 100%;
+    height: 72%;
+    overflow: hidden;
+}
+
+.SecInnerColor {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    margin-left: -10px;
+    width: 200%;
+    height: 52%;
+    background: #e2e2e2;
+    /* background: #ECE6DE; */
+    transform: rotate(-6deg);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    z-index: 100;
+}
+
+.faIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.android,
+.window,
+.apple {
+    font-size: 5rem;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: translate3d(10px, -10px);
+}
+
+.cardFlip:hover .android {
+    transition: 0.6s ease-in-out;
+    color: rgb(62, 179, 32);
+}
+
+.cardFlip:hover .window {
+    transition: 0.6s ease-in-out;
+    color: #2f9cde;
+}
+
+.cardFlip:hover .apple {
+    transition: 0.6s ease-in-out;
+    color: #A2AAAD;
+}
+
+.mainList {
+    background: #1E1D24;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.input1 {
+    margin-top: 4%;
+    position: absolute;
+    width: 90%;
+    height: 2rem;
+    background: rgb(255, 255, 255);
+    padding: 0.4rem 0.2rem 0.4rem 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    z-index: 10000;
+}
+
+.input1 .fas {
+    color: rgb(85, 85, 85);
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+#search {
+    width: 90%;
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.content {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    padding: 0 0 0 0.8rem;
+}
+
+.content p {
+    font-size: 0.8rem;
+}
+
+.imageMainBox {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    overflow-y: scroll;
+}
+
+.imageBox {
+    width: 43%;
+    height: 100px;
+    margin: 0.3rem;
+}
+
+.imageBox .images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+.imageMainBox::-webkit-scrollbar,
+.imageMainBox1::-webkit-scrollbar {
+    width: 5px;
+}
+
+.imageMainBox::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.imageMainBox1::-webkit-scrollbar-track {
+    background-color: rgb(116, 110, 110);
+    border-radius: 10px;
+}
+
+.imageMainBox::-webkit-scrollbar-thumb,
+.imageMainBox1::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 25px;
+}
+
+
+/* Image {
+  
+   
+} */

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    margin-left: 25%;
+    background-color: #2f43538f;
+    background-image: linear-gradient(to right, #e8e8e8, #989898);
+}
+
+h1 {
+    margin-left: 30%;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+
+.form {
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.formEdit {
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 0px;
+}
+
+.formEdit:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+}
