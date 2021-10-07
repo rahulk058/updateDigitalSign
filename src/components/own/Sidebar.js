@@ -69,16 +69,16 @@ const Sidebar = () => {
 				</ListItem>
 
 				<footer style={{ position: 'absolute', bottom: '15%' }}>
-					<ListItem>
+					{/* <ListItem>
 						<ListItemIcon className="nav">
 							<PersonIcon style={{ color: '#94959E' }} />
 							<p>User</p>
 						</ListItemIcon>
-					</ListItem>
+					</ListItem> */}
 					<ListItem button component={Link} to="/login">
 						<ListItemIcon className="nav">
 							<ExitToAppIcon style={{ color: '#94959E' }} />
-							<p>Login</p>
+							<p>Logout</p>
 						</ListItemIcon>
 					</ListItem>
 				</footer>

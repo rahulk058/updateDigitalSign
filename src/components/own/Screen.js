@@ -173,6 +173,10 @@ function Screen() {
 		handleClose();
 	};
 	React.useEffect(() => {
+		if(localStorage.getItem("load")==1){
+			localStorage.setItem("load",0);
+			window.location.reload();
+		}
 		if (localStorage.getItem('user_name') === null || localStorage.getItem('user_name') === '') {
 			window.location.href = '/#/login';
 		}

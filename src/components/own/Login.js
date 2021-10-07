@@ -61,6 +61,7 @@ export default function SignIn() {
                     toast("Login Successfully");
                     localStorage.setItem("user_name",email)
                     setInterval(function (){
+                        localStorage.setItem("load",1)
                       window.location.href="/#/screen";
                     },3000);
                 }
